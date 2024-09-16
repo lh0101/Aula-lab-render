@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'movies.apps.MoviesConfig', # adicione esta linha
     'staticpages.apps.StaticpagesConfig', # adicione esta linha
 ]
 
